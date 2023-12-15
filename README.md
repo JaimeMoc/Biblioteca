@@ -1,4 +1,4 @@
-# Proyecto Creación de una Base de Datos "Biblioteca".
+# Proyecto creación de una Base de Datos "Biblioteca".
 
 ## Descripción del proyecto.
 
