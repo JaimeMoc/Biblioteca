@@ -1,4 +1,4 @@
-# Proyecto Educativo: Creación de una Base de Datos para Gestión de Alumnos
+# Proyecto Creación de una Base de Datos "Biblioteca".
 
 ## Descripción del proyecto.
 
@@ -26,8 +26,35 @@ Campos: ID, Nombre, Descripción, Fecha_Creación, Popularidad, Número_Libros, 
 - **Multas**:
 Campos: ID, Prestamo_ID, Fecha, Cantidad, Pagada.
 
+![Diseño Workbench](https://github.com/JaimeMoct/Biblioteca/assets/88919426/a2088b22-1d6e-4643-8fbb-f4de3faf9568)
+
 ## Tecnologias usadas: 
 
 - Base de Datos: MySQL.
+- Diseño de la base de datos: Workbench y DraSQL.
 - Herramienta de Control de Versiones: Git.
 - Entorno de Desarrollo: Visual Studio Code.
+
+## Instalación y configuración.
+
+1.- Clona el repositorio "Biblioteca":
+
+```bash
+git clone https://github.com/JaimeMoct/Biblioteca.git
+```
+¡Ahora tienes el repositorio "SalariosMex" clonado en tu máquina local y estás listo para explorar su contenido!
+
+## Contribuciones
+¡¡Se les agradece las contribuciones a este proyecto!!
+Si tienes alguna sugerencia, duda o corrección, no dudes en abrir un "issue" o enviar una solicitud de extracción. 
+
+Para cualquier duda o aclaración, puedes contactarme [Jaime Suarez](https://github.com/JaimeMoct):
+
+Email: suarezjaime4@gmail.com
+
+Twitter: [@Saak_jS](https://twitter.com/Saak_jS)
+
+Instagram: [@tbrboystar](https://www.instagram.com/tbrboystar/)
+
+## Licencia
+Este proyecto se distribuye bajo la licencia MIT. Si utilizas el código o la información proporcionada en este proyecto, se agradece que se le atribuya adecuadamente.
