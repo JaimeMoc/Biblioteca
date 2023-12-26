@@ -1,5 +1,5 @@
-# Proyecto creación de una Base de Datos "Biblioteca".
-
+# Proyecto creación de una Base de Datos "Biblioteca". 
+<p align="right"> <img width="300" src="https://drive.google.com/uc?id=10iltYkVYo8OIrQZ-P2XOk0xV_TCQOLY1" alt="Biblioteca"> </p>
 ## Descripción del proyecto.
 
 Este proyecto tiene como objetivo principal digitalizar el sistema de gestión y administración de una biblioteca. La biblioteca, en busca de mayor eficiencia y reconocimiento, ha decidido adoptar un sistema basado en una base de datos. El administrador de base de datos desplegará una estructura robusta que permita la gestión integral de libros, empleados, préstamos, multas, géneros, editoriales y miembros.
