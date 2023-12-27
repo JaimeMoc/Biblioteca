@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registro de Préstamos </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registro de Préstamos</h1>
+<form action="{{ url_for('index') }}" method="GET">
+    <label for="busqueda">Buscar Libro:</label>
+    <input type="text" id="busqueda" name="busqueda" placeholder="Ingrese el título del libro" value="{{ busqueda }}">
+    <button type="submit">Buscar</button>
+</form>
+
+<ul>
+    {% for prestamo in prestamos %}
+        <li>{{ prestamo.nombre }} - {{ prestamo.autor }} - {{ prestamo.fecha_prestamo }}</li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>
